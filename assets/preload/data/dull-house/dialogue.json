@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hello again you came for another rap battle..."
+		},
+		{
+			"sound": "brocken",
+			"speed": 0.05,
+			"portrait": "f",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": " "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		}
+	]
+}

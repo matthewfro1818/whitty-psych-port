@@ -1,0 +1,26 @@
+{
+	"song": {
+		"events": [
+			[
+				124043.47826087,
+				[
+					[
+						"Change Character",
+						"bf",
+						"jumscare"
+					]
+				]
+			],
+			[
+				124043.47826087,
+				[
+					[
+						"Play Animation",
+						"jumscare",
+						"bf"
+					]
+				]
+			]
+		]
+	}
+}

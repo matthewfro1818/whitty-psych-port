@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Dull House", "dad", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "DaveHouse",
+
+	"storyName": "Dave",
+	"weekBefore": "tutorial",
+	"weekName": "Week 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
