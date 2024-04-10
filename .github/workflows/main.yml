@@ -43,12 +43,9 @@ jobs:
           haxelib install hxp
           haxelib install hscript
           haxelib install flixel-addons
-          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-          haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate
-          haxelib git linc_luajit https://github.com/MAJigsaw77/linc_luajit
-          haxelib git extension-webview https://github.com/MatheusSilver/extension-webview --quiet
-          haxelib git extension-videoview https://github.com/MAJigsaw77/extension-videoview --quiet
-          haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools
+          haxelib install discord_rpc
+          haxelib install flxanimate
+          haxelib install linc_luajit
           haxelib list
 
       - name: Create Version Tag
