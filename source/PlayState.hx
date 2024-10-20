@@ -4760,7 +4760,6 @@ class PlayState extends MusicBeatState
 				});
 				// again
 			case 950:
-				boyfriend.visible = false;
 				friendTransgender.visible = true;
 				friendTransgender.animation.play("jumscare", true);
 			case 951:
