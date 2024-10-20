@@ -492,7 +492,7 @@ class PlayState extends MusicBeatState
 				stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
 				stageFront.updateHitbox();
 				add(stageFront);
-            }
+                        }
 			if(SONG.song.toLowerCase()=='dull-house')
 			{
 				var bg:BGSprite = new BGSprite('backgrounds/shared/sky', -600, -300, null, 0.6, 0.6);
@@ -509,9 +509,9 @@ class PlayState extends MusicBeatState
 	
 				var stageFront:BGSprite = new BGSprite('backgrounds/dave-house/grass', -832, 505, null);
 				add(stageFront);
-            }
+                        }
 			if(SONG.song.toLowerCase()=='dull-farm')
-			{				
+			{
 				var bg:BGSprite = new BGSprite('backgrounds/shared/sky', -600, -200, null, 0.6, 0.6);
 				add(bg);
 
@@ -543,7 +543,17 @@ class PlayState extends MusicBeatState
 				
 				var sign:BGSprite = new BGSprite('backgrounds/farm/sign', 0, 350, null);
 				add(sign);
-            }
+			}
+				
+			if(SONG.song.toLowerCase()=='dull-power')
+			{
+				var bg:FlxSprite = new FlxSprite(-400, -160).loadGraphic(Paths.image('bg_lemon'));
+				bg.setGraphicSize(Std.int(bg.width * 1.5));
+				bg.antialiasing = true;
+				bg.scrollFactor.set(0.95, 0.95);
+				bg.active = false;
+				add(bg);
+                        }
 				friendTransgender = new FlxSprite(-125, 100);
 				friendTransgender.antialiasing = true;
 				friendTransgender.frames = Paths.getSparrowAtlas("NotYourFriend");
